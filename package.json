@@ -1,0 +1,19 @@
+{
+  "name": "playwright-quotes",
+  "version": "1.0.0",
+  "description": "Fun Playwright + TypeScript test suite for quotes.toscrape.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install chromium"
+  },
+  "keywords": ["playwright", "typescript", "e2e", "testing"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
